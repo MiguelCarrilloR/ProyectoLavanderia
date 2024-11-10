@@ -1,0 +1,172 @@
+.billing-page {
+    background-color: #E4D2F5;
+    padding: 20px;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.header-left, .header-right {
+    flex: 1;
+}
+
+.header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 2;
+}
+
+.back-button {
+    background-color: #fff;
+    color: #000;
+    margin-left: 10px;
+}
+
+.admin-button {
+    background-color: #fff;
+    color: #000;
+    margin-right: 10px;
+}
+
+.logo {
+    max-width: 400px;
+}
+
+.facturacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.extra-image {
+    width: 10%;
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+
+
+.main-content {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.table-container {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+.table-row-odd {
+    background-color: #f8f8f8;
+}
+
+.pagination {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.page-number {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.page-number.active {
+    background-color: #bca6ea;
+    color: #fff;
+}
+
+.modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+}
+
+.modal-box h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.item-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-field {
+    width: 100px;
+}
+
+.total-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.total-section .MuiTextField-root {
+    flex: 1;
+}
+
+.add-invoice-button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.add-invoice-button:hover {
+    background-color: #45A049;
+}
+
+.button-primary {
+    color: #6C1AB2;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 10px;
+}
